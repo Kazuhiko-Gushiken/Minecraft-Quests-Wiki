@@ -1,0 +1,232 @@
+html, body {
+    margin: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+body {
+    display: flex;
+}
+
+canvas {
+    touch-action: none;
+}
+
+#sidebar {
+    width: 220px;
+    background: #232323;
+    border-right: 1px solid #444;
+
+    display: flex;
+    flex-direction: column;
+
+    padding: 16px;
+    gap: 8px;
+
+    overflow-y: auto;
+}
+
+#sidebar h2 {
+    margin: 0 0 10px 0;
+
+    font-size: 18px;
+    font-weight: 600;
+
+    color: #f0f0f0;
+
+    border-bottom: 1px solid #555;
+    padding-bottom: 8px;
+}
+
+#out {
+    flex: 1;
+    min-width: 0;
+    display: block;
+}
+
+.hidden {
+    display: none !important;
+}
+
+#questOverlay {
+    position: fixed;
+    inset: 0;
+
+    background: rgba(0, 0, 0, 0.45);
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    z-index: 1000;
+}
+
+#questCard {
+    width: 700px;
+    max-width: 90vw;
+    height: 800px;
+    max-height: 90vh;
+
+    background: #222;
+    border: 2px solid #666;
+    border-radius: 8px;
+
+    color: white;
+
+    padding: 24px;
+    box-sizing: border-box;
+
+    display: flex;
+    flex-direction: column;
+    overflow: visible;
+}
+
+#questDescriptionWrapper {
+    flex: 1;
+    min-height: 0;
+
+    overflow: hidden;
+}
+
+#questDescription {
+    width: 100%;
+    height: 100%;
+
+    flex: 1 1 auto;
+    min-height: 0;
+    overflow-y: auto;
+}
+
+#questDescription {
+    flex: 1;
+    min-height: 0;
+
+    overflow-y: auto;
+    overflow-x: hidden;
+
+    scrollbar-width: none;
+
+    -ms-overflow-style: none;
+}
+
+#questDescription::-webkit-scrollbar {
+    display: none;
+}
+
+#questHeader {
+    position: relative;
+    text-align: center;
+    margin-bottom: 24px;
+    flex: 0 0 auto;
+}
+
+#questCard hr {
+    flex: 0 0 auto;
+    width: 100%;
+}
+
+#questTitle {
+    margin: 0;
+    font-size: 40px;
+    color: white;
+}
+
+#questSubtitle {
+    margin: 6px 0 0;
+    font-size: 18px;
+    color: #a0a0a0;
+    font-weight: normal;
+}
+
+#sidebar button {
+    width: 100%;
+
+    padding: 10px 12px;
+
+    background: #353535;
+    color: white;
+
+    border: 1px solid #555;
+    border-radius: 6px;
+
+    font-size: 15px;
+    text-align: left;
+
+    cursor: pointer;
+
+    transition:
+        background 120ms,
+        border-color 120ms,
+        transform 80ms;
+}
+
+#sidebar button:hover {
+    background: #454545;
+    border-color: #777;
+}
+
+#sidebar button:active {
+    background: #555;
+    transform: translateY(1px);
+}
+
+#sidebar button:focus-visible {
+    outline: 2px solid #4da3ff;
+    outline-offset: 2px;
+}
+
+#sidebar button.active {
+    background: #6c8b3c;
+    border-color: #9ec95d;
+    color: white;
+}
+
+#copyQuestLink {
+    position: absolute;
+
+    top: 16px;
+    right: 16px;
+
+    width: 32px;
+    height: 32px;
+
+    padding: 0;
+    margin: 0;
+
+    border: none;
+    outline: none;
+
+    background: transparent;
+
+    cursor: pointer;
+
+    opacity: 0.7;
+    transition: opacity .15s;
+
+    background-image: url("./assets/exlaim64.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 36px 36px;
+}
+
+#copyQuestLink.copied {
+    background-image: url("./assets/check64.png");
+}
+
+#copyQuestLink:hover {
+    opacity: 1;
+}
+
+#questHeaderWrapper {
+    position: relative;
+    overflow: visible;
+}
+
+#questIcon {
+    position: absolute;
+    left: 50%;
+    top: -105px;
+
+    transform: translateX(-50%);
+}

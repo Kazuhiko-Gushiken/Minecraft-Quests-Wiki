@@ -1,0 +1,1 @@
+A cable capable of transferring enough energy for your entire factory, &b10 times over&r, within a single cable. This is &bpeak&r power transfer.

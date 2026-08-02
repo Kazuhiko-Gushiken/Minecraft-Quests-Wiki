@@ -1,0 +1,3 @@
+&bStainless Steel&r is just about as strong as regular steel, but &bStainless Steel&r will never corrode, rust, or stain. This is the first metal that you can't just throw into a furnace and call it a day.
+
+&6You need to create its dust&r from four ingredients: &bIron&r, &bChromium&r, &bManganese&r, and &bNickel&r. Then, after you heat it up to extreme temperatures in your EBF, you need to use the &bVacuum Freezer&r to cool down the red hot ingot to be usable. 

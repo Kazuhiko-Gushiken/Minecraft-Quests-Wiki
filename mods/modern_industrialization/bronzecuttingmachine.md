@@ -1,0 +1,3 @@
+A sleek bronze casing with a vicious spinning blade inside will give you even &6better cutting ratios&r than you ever experienced using your &bForge Hammer&r. &aTime for extra bolts, gears, rings, and rods!&r
+
+Just remember that you can't cut for free. This machine runs off &bSteam&r and uses &bLubricant&r to make clean cuts without overheating. &bLubricant&r can be produced inside of the &bMixer&r, using &bRedstone&r and one of the various hydrocarbons. I suggest checking out the &bCoke Oven's&r products. You may find something to &6mix&r with &bRedstone&r!

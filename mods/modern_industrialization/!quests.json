@@ -1,0 +1,946 @@
+[
+    {
+        "id": "mi",
+        "title": "Modern Industrialization",
+        "subtitle": "",
+        "location": [0, 0],
+        "depends": [],
+        "index": 1
+    },
+    {
+        "id": "poorman",
+        "title": "Poor Man's Compressor",
+        "subtitle": "",
+        "location": [2, 0],
+        "related": ["mi"],
+        "index": 2
+    },
+    {
+        "id": "yourfirstbronze",
+        "title": "Your First Bronze",
+        "subtitle": "",
+        "location": [4, 0],
+        "depends": ["poorman"],
+        "index": 3
+    },
+    {
+        "id": "steamchainsaw",
+        "title": "Steam Chainsaw",
+        "subtitle": "Brrrr!",
+        "location": [1.25, 2],
+        "depends": ["poorman"],
+        "index": 4
+    },
+    {
+        "id": "steamminingdrill",
+        "title": "Steam Mining Drill",
+        "subtitle": "Cling, Clang, Cling, Clang!",
+        "location": [2.75, 2],
+        "depends": ["poorman"],
+        "index": 5
+    },
+    {
+        "id": "lignitecoal",
+        "title": "Lignite Coal",
+        "subtitle": "",
+        "location": [2, 4],
+        "depends": ["steamminingdrill", "steamchainsaw"],
+        "index": 6
+    },
+    {
+        "id": "wrench",
+        "title": "Wrench",
+        "subtitle": "",
+        "location": [4, 2],
+        "depends": ["yourfirstbronze"],
+        "index": 7
+    },
+    {
+        "id": "fluidtransportation",
+        "title": "Fluid Transportation",
+        "subtitle": "",
+        "location": [4, -2],
+        "depends": ["yourfirstbronze"],
+        "index": 8
+    },
+    {
+        "id": "whatsatick",
+        "title": "What's a Tick?",
+        "subtitle": "",
+        "location": [2, -2],
+        "optionalDepends": ["fluidtransportation"],
+        "index": 9
+    },
+    {
+        "id": "cokeoven",
+        "title": "Coke Oven",
+        "subtitle": "",
+        "location": [10.5, 0],
+        "depends": ["yourfirstbronze"],
+        "index": 10
+    },
+    {
+        "id": "fireclay",
+        "title": "Fire Clay",
+        "subtitle": "",
+        "location": [10.5, 1.5],
+        "depends": ["yourfirstbronze"],
+        "index": 11
+    },
+    {
+        "id": "bronzemixer",
+        "title": "Bronze Mixer",
+        "subtitle": "",
+        "location": [10.5, 3],
+        "depends": ["yourfirstbronze"],
+        "index": 12
+    },
+    {
+        "id": "bronzecuttingmachine",
+        "title": "Bronze Cutting Machine",
+        "subtitle": "",
+        "location": [10.5, 4.5],
+        "depends": ["yourfirstbronze"],
+        "index": 13
+    },
+    {
+        "id": "bronzebendingmachine",
+        "title": "Bronze Bending Machine",
+        "subtitle": "Is this gym equipment?",
+        "location": [10.5, 6],
+        "optionalDepends": ["yourfirstbronze"],
+        "index": 14
+    },
+    {
+        "id": "bronzeboiler",
+        "title": "Bronze Boiler",
+        "subtitle": "",
+        "location": [10.5, -1.5],
+        "depends": ["yourfirstbronze"],
+        "index": 15
+    },
+    {
+        "id": "bronzecompressor",
+        "title": "Bronze Compressor",
+        "subtitle": "",
+        "location": [10.5, -3],
+        "depends": ["yourfirstbronze"],
+        "index": 16
+    },
+    {
+        "id": "bronzemacerator",
+        "title": "Bronze Macerator",
+        "subtitle": "",
+        "location": [10.5, -4.5],
+        "depends": ["yourfirstbronze"],
+        "index": 17
+    },
+    {
+        "id": "bronzecomposter",
+        "title": "Bronze Composter",
+        "subtitle": "Bone Meal Overflow!",
+        "location": [10.5, -6],
+        "optionalDepends": ["yourfirstbronze"],
+        "index": 18
+    },
+    {
+        "id": "bronzefurnace",
+        "title": "Bronze Furnace",
+        "subtitle": "It's Smelting Time!",
+        "location": [12.5, 1.5],
+        "depends": ["fireclay"],
+        "index": 19
+    },
+    {
+        "id": "largesteamfurnace",
+        "title": "Large Steam Furnace",
+        "subtitle": "The Bigger, The Better!",
+        "location": [12.5, 3],
+        "optionalDepends": ["bronzefurnace"],
+        "index": 20
+    },
+    {
+        "id": "bronzewaterpump",
+        "title": "Bronze Water Pump",
+        "subtitle": "",
+        "location": [12.5, -1.5],
+        "depends": ["bronzeboiler"],
+        "index": 21
+    },
+    {
+        "id": "bronzesolarboiler",
+        "title": "Bronze Solar Boiler",
+        "subtitle": "Uses Solar Energy instead of Fossil Fuel.",
+        "location": [12.5, -3],
+        "optionalDepends": ["bronzeboiler"],
+        "index": 22
+    },
+    {
+        "id": "largesteammacerator",
+        "title": "Large Steam Macerator",
+        "subtitle": "Can run recipes in batches.",
+        "location": [12.5, -4.5],
+        "depends": ["bronzemacerator"],
+        "index": 23
+    },
+    {
+        "id": "multiblockcontrollers",
+        "title": "Multiblock Controllers",
+        "subtitle": "",
+        "location": [12.5, 0],
+        "depends": ["cokeoven"],
+        "index": 24
+    },
+    {
+        "id": "coke",
+        "title": "Coke",
+        "subtitle": "",
+        "location": [14.5, 0],
+        "depends": ["multiblockcontrollers"],
+        "index": 25
+    },
+    {
+        "id": "steamblastfurnace",
+        "title": "Steam Blast Furnace",
+        "subtitle": "",
+        "location": [18, 0],
+        "depends": ["coke", "bronzewaterpump", "bronzefurnace"],
+        "index": 26
+    },
+    {
+        "id": "yourfirststeel",
+        "title": "Your First Steel!",
+        "subtitle": "",
+        "location": [22, 0],
+        "depends": ["steamblastfurnace"],
+        "index": 27
+    },
+    {
+        "id": "steelalloysmelter",
+        "title": "Steel Alloy Smelter",
+        "subtitle": "Mixing &etwo&r materials together for &6alloys&r.",
+        "location": [22, 4],
+        "optionalDepends": ["yourfirststeel"],
+        "index": 28
+    },
+    {
+        "id": "steelbrewery",
+        "title": "Steel Brewery",
+        "subtitle": "Brews &e4&r potions at a time.",
+        "location": [19, 3],
+        "optionalDepends": ["yourfirststeel"],
+        "index": 29
+    },
+    {
+        "id": "itemtransportation",
+        "title": "Item Transportation",
+        "subtitle": "",
+        "location": [20.5, 3.5],
+        "depends": ["yourfirststeel"],
+        "index": 30
+    },
+    {
+        "id": "steelhoneyextractor",
+        "title": "Steel Honey Extractor",
+        "subtitle": "When placed facing into a &ebeehive&r, &6honey will be extracted in &bfluid form&r.",
+        "location": [25, 3],
+        "optionalDepends": ["yourfirststeel"],
+        "index": 31
+    },
+    {
+        "id": "fastermachines",
+        "title": "Faster Machines?",
+        "subtitle": "",
+        "location": [23.5, 3.5],
+        "depends": ["yourfirststeel"],
+        "index": 32
+    },
+    {
+        "id": "infiniteresources",
+        "title": "Infinite Resources?",
+        "subtitle": "",
+        "location": [22, -2],
+        "depends": ["yourfirststeel"],
+        "index": 33
+    },
+    {
+        "id": "steelunpacker",
+        "title": "Steel Unpacker",
+        "subtitle": "",
+        "location": [20.5, -2],
+        "depends": ["yourfirststeel"],
+        "index": 34
+    },
+    {
+        "id": "steelpacker",
+        "title": "Steel Packer",
+        "subtitle": "",
+        "location": [23.5, -2],
+        "depends": ["yourfirststeel"],
+        "index": 35
+    },
+    {
+        "id": "steelhatches",
+        "title": "Steel Hatches",
+        "subtitle": "Waiting for something to Hatch?",
+        "location": [22, -4],
+        "depends": ["infiniteresources"],
+        "index": 36
+    },
+    {
+        "id": "quarrytips",
+        "title": "Quarry Tips",
+        "subtitle": "",
+        "location": [22, -5.5],
+        "depends": ["steelhatches"],
+        "index": 37
+    },
+    {
+        "id": "copperdrill",
+        "title": "Copper Drill",
+        "subtitle": "",
+        "location": [20.5, -4.5],
+        "depends": ["steelhatches"],
+        "index": 38
+    },
+    {
+        "id": "bronzedrill",
+        "title": "Bronze Drill",
+        "subtitle": "",
+        "location": [23.5, -4.5],
+        "depends": ["steelhatches"],
+        "index": 39
+    },
+    {
+        "id": "steelwiremill",
+        "title": "Steel Wiremill",
+        "subtitle": "Wire! Zap!",
+        "location": [25, 0],
+        "depends": ["yourfirststeel"],
+        "index": 40
+    },
+    {
+        "id": "rubber",
+        "title": "Rubber",
+        "subtitle": "",
+        "location": [27.5, 0],
+        "depends": ["steelwiremill"],
+        "index": 41
+    },
+    {
+        "id": "theelectricage",
+        "title": "&eThe Electric Age!",
+        "subtitle": "Time for a Major Upgrade",
+        "location": [30, 0],
+        "depends": ["rubber"],
+        "index": 42
+    },
+    {
+        "id": "machinehulls",
+        "title": "Machine Hulls",
+        "subtitle": "The Electronic Heart",
+        "location": [30, 3.5],
+        "depends": ["theelectricage"],
+        "index": 43
+    },
+    {
+        "id": "motors",
+        "title": "Motors",
+        "subtitle": "You Spin Me Right \\'Round",
+        "location": [28.5, 3.5],
+        "depends": ["theelectricage"],
+        "index": 44
+    },
+    {
+        "id": "pistons",
+        "title": "Pistons",
+        "subtitle": "Metal Punch",
+        "location": [27, 3.5],
+        "depends": ["theelectricage"],
+        "index": 45
+    },
+    {
+        "id": "roboticarms",
+        "title": "Robotic Arms",
+        "subtitle": "Beep Boop",
+        "location": [31.5, 3.5],
+        "depends": ["theelectricage"],
+        "index": 46
+    },
+    {
+        "id": "conveyorbelts",
+        "title": "Conveyor Belts",
+        "subtitle": "All Abord the Item Express!",
+        "location": [33, 3.5],
+        "depends": ["theelectricage"],
+        "index": 47
+    },
+    {
+        "id": "assembler",
+        "title": "Assembler",
+        "subtitle": "",
+        "location": [30, 6],
+        "depends": ["pistons", "motors", "machinehulls", "roboticarms", "conveyorbelts"],
+        "index": 48
+    },
+    {
+        "id": "redstonecontrolmodule",
+        "title": "Redstone Control Module",
+        "subtitle": "",
+        "location": [30, -4],
+        "optionalDepends": ["theelectricage"],
+        "index": 49
+    },
+    {
+        "id": "solarpanels",
+        "title": "Solar Panels",
+        "subtitle": "Be better for the &aenvironment&r!",
+        "location": [33, -3],
+        "optionalDepends": ["theelectricage"],
+        "index": 50
+    },
+    {
+        "id": "steamfarmer",
+        "title": "Steam Farmer",
+        "subtitle": "What did the baby &ecorn&r say to the mama &ecorn&r?",
+        "location": [27, -3],
+        "optionalDepends": ["theelectricage"],
+        "index": 51
+    },
+    {
+        "id": "energytransfer",
+        "title": "Energy Transfer",
+        "subtitle": "",
+        "location": [28.5, -3.5],
+        "depends": ["theelectricage"],
+        "index": 52
+    },
+    {
+        "id": "largesteamboiler",
+        "title": "Large Steam Boiler",
+        "subtitle": "",
+        "location": [31.5, -3.5],
+        "depends": ["theelectricage"],
+        "index": 53
+    },
+    {
+        "id": "lvsteamturbine",
+        "title": "LV Steam Turbine",
+        "subtitle": "",
+        "location": [33, 0],
+        "depends": ["theelectricage"],
+        "index": 54
+    },
+    {
+        "id": "polarizer",
+        "title": "Polarizer",
+        "subtitle": "",
+        "location": [35, 0],
+        "depends": ["lvsteamturbine"],
+        "index": 55
+    },
+    {
+        "id": "basicupgrade",
+        "title": "Basic Upgrade",
+        "subtitle": "",
+        "location": [35, 2],
+        "depends": ["polarizer"],
+        "index": 56
+    },
+    {
+        "id": "largetank",
+        "title": "Large Tank",
+        "subtitle": "",
+        "location": [35, -2],
+        "optionalDepends": ["polarizer"],
+        "index": 57
+    },
+    {
+        "id": "electricblastfurnace",
+        "title": "Electric Blast Furnace",
+        "subtitle": "It's getting &cHot&r In Here!",
+        "location": [37, 0],
+        "depends": ["polarizer"],
+        "index": 58
+    },
+    {
+        "id": "lvenergyinputhatch",
+        "title": "LV Energy Input Hatch",
+        "subtitle": "",
+        "location": [37, -2],
+        "depends": ["electricblastfurnace"],
+        "index": 59
+    },
+    {
+        "id": "aluminum",
+        "title": "Aluminum",
+        "subtitle": "It's gonna be Al, right?",
+        "location": [37, 2],
+        "depends": ["electricblastfurnace"],
+        "index": 60
+    },
+    {
+        "id": "universaltransformer",
+        "title": "Universal Transformer",
+        "subtitle": "Easier Conversion!",
+        "location": [37, 4],
+        "optionalDepends": ["aluminum"],
+        "index": 61
+    },
+    {
+        "id": "themidgameage",
+        "title": "&bThe Midgame Age!",
+        "subtitle": "",
+        "location": [41, 0],
+        "depends": ["electricblastfurnace"],
+        "index": 62
+    },
+    {
+        "id": "electricquarry",
+        "title": "Electric Quarry",
+        "subtitle": "Resources Go BRRR!",
+        "location": [41, 2],
+        "depends": ["themidgameage"],
+        "index": 63
+    },
+    {
+        "id": "golddrill",
+        "title": "Gold Drill",
+        "subtitle": "",
+        "location": [40.25, 4],
+        "depends": ["electricquarry"],
+        "index": 64
+    },
+    {
+        "id": "steeldrill",
+        "title": "Steel Drill",
+        "subtitle": "",
+        "location": [41.75, 4],
+        "depends": ["electricquarry"],
+        "index": 65
+    },
+    {
+        "id": "machinechainer",
+        "title": "Machine Chainer",
+        "subtitle": "Chain Them Up!",
+        "location": [42.5, -3.5],
+        "optionalDepends": ["themidgameage"],
+        "index": 66
+    },
+    {
+        "id": "advancedlargesteamboiler",
+        "title": "Advanced Large Steam Boiler",
+        "subtitle": "Double Efficiency!",
+        "location": [41, -4],
+        "depends": ["themidgameage"],
+        "index": 67
+    },
+    {
+        "id": "pyrolyseoven",
+        "title": "Pyrolyse Oven",
+        "subtitle": "Can run &eCoke Oven&r recipes in batches.",
+        "location": [39.5, -3.5],
+        "optionalDepends": ["themidgameage"],
+        "index": 68
+    },
+    {
+        "id": "overdrivemodule",
+        "title": "Overdrive Module",
+        "subtitle": "",
+        "location": [45, 0],
+        "optionalDepends": ["themidgameage"],
+        "index": 69
+    },
+    {
+        "id": "chemicalreactor",
+        "title": "Chemical Reactor",
+        "subtitle": "Say My Name!",
+        "location": [45, 1.5],
+        "depends": ["themidgameage"],
+        "index": 70
+    },
+    {
+        "id": "hullupgrades",
+        "title": "Hull Upgrades",
+        "subtitle": "",
+        "location": [45, 3],
+        "depends": ["themidgameage"],
+        "index": 71
+    },
+    {
+        "id": "oildrillingrig",
+        "title": "Oil Drilling Rig",
+        "subtitle": "Someone say \"Freedom\"?",
+        "location": [45, 4.5],
+        "depends": ["themidgameage"],
+        "index": 72
+    },
+    {
+        "id": "centrifuge",
+        "title": "Centrifuge",
+        "subtitle": "",
+        "location": [45, -1.5],
+        "depends": ["themidgameage"],
+        "index": 73
+    },
+    {
+        "id": "electrolyzer",
+        "title": "Electrolyzer",
+        "subtitle": "",
+        "location": [45, -3],
+        "depends": ["themidgameage"],
+        "index": 74
+    },
+    {
+        "id": "vacuumfreezer",
+        "title": "Vacuum Freezer",
+        "subtitle": "",
+        "location": [45, -4.5],
+        "depends": ["themidgameage"],
+        "index": 75
+    },
+    {
+        "id": "mvsteamturbine",
+        "title": "MV Steam Turbine",
+        "subtitle": "",
+        "location": [47, 3],
+        "depends": ["hullupgrades"],
+        "index": 76
+    },
+    {
+        "id": "aluminumdrill",
+        "title": "Aluminum Drill",
+        "subtitle": "",
+        "location": [45, 6],
+        "depends": ["oildrillingrig"],
+        "index": 77
+    },
+    {
+        "id": "distillery",
+        "title": "Distillery",
+        "subtitle": "",
+        "location": [49, 4.5],
+        "depends": ["oildrillingrig"],
+        "index": 78
+    },
+    {
+        "id": "stainlesssteeldrill",
+        "title": "Stainless Steel Drill",
+        "subtitle": "",
+        "location": [49, -1.5],
+        "depends": ["centrifuge", "stainlesssteel", "thelategameage"],
+        "index": 79
+    },
+    {
+        "id": "stainlesssteel",
+        "title": "Stainless Steel",
+        "subtitle": "No Corrosion!",
+        "location": [49, -4.5],
+        "depends": ["vacuumfreezer"],
+        "index": 80
+    },
+    {
+        "id": "nanosuit",
+        "title": "Nano Suit",
+        "subtitle": "Tech Fasion!",
+        "location": [49, 3],
+        "optionalDepends": ["distillery"],
+        "index": 81
+    },
+    {
+        "id": "upgrades",
+        "title": "Upgrades",
+        "subtitle": "",
+        "location": [49, 6.5],
+        "depends": ["distillery"],
+        "index": 82
+    },
+    {
+        "id": "dieselaccessories",
+        "title": "Diesel Accessories",
+        "subtitle": "",
+        "location": [47.5, 6],
+        "optionalDepends": ["distillery"],
+        "index": 83
+    },
+    {
+        "id": "dieselgenerator",
+        "title": "Diesel Generator",
+        "subtitle": "",
+        "location": [50.5, 6],
+        "depends": ["distillery"],
+        "index": 84
+    },
+    {
+        "id": "thelategameage",
+        "title": "&9The Lategame Age",
+        "subtitle": "",
+        "location": [55, 4.5],
+        "depends": ["distillery", "stainlesssteel"],
+        "index": 85
+    },
+    {
+        "id": "electricaccessories",
+        "title": "Electric Accessories",
+        "subtitle": "",
+        "location": [52, -2.5],
+        "optionalDepends": ["stainlesssteel"],
+        "index": 86
+    },
+    {
+        "id": "kanthalcoils",
+        "title": "Kanthal Coils",
+        "subtitle": "",
+        "location": [55, -4.5],
+        "depends": ["stainlesssteel"],
+        "index": 87
+    },
+    {
+        "id": "processingunit",
+        "title": "ProcessingUnit",
+        "subtitle": "",
+        "location": [55, 0],
+        "depends": ["kanthalcoils", "thelategameage"],
+        "index": 88
+    },
+    {
+        "id": "highlyadvancedupgrade",
+        "title": "Highly Advanced Upgrade",
+        "subtitle": "",
+        "location": [57, 0],
+        "depends": ["processingunit"],
+        "index": 89
+    },
+    {
+        "id": "distillationtower",
+        "title": "Distillation Tower",
+        "subtitle": "",
+        "location": [55, 7.5],
+        "depends": ["thelategameage"],
+        "index": 90
+    },
+    {
+        "id": "hvsteamturbine",
+        "title": "HV Steam Turbine",
+        "subtitle": "",
+        "location": [53.5, 7],
+        "depends": ["thelategameage"],
+        "index": 91
+    },
+    {
+        "id": "heatexchanger",
+        "title": "Heat Exchanger",
+        "subtitle": "",
+        "location": [56.5, 7],
+        "depends": ["thelategameage"],
+        "index": 92
+    },
+    {
+        "id": "hvdieselgenerator",
+        "title": "HV Diesel Generator",
+        "subtitle": "",
+        "location": [52, 6.5],
+        "optionalDepends": ["thelategameage"],
+        "index": 93
+    },
+    {
+        "id": "processingarray",
+        "title": "Processing Array",
+        "subtitle": "",
+        "location": [58, 6.5],
+        "optionalDepends": ["thelategameage"],
+        "index": 94
+    },
+    {
+        "id": "pressurizer",
+        "title": "Pressurizer",
+        "subtitle": "",
+        "location": [59, 4.5],
+        "depends": ["thelategameage", "titanium"],
+        "index": 95
+    },
+    {
+        "id": "titanium",
+        "title": "Titanium",
+        "subtitle": "",
+        "location": [59, 0],
+        "depends": ["kanthalcoils"],
+        "index": 96
+    },
+    {
+        "id": "multiprocessingarray",
+        "title": "Multi Processing Array",
+        "subtitle": "Can run recipes of any electric multiblock machine provided to it in batches.",
+        "location": [59, -3],
+        "optionalDepends": ["titanium"],
+        "index": 97
+    },
+    {
+        "id": "blastproofalloyplate",
+        "title": "Blast-proof Alloy Plate",
+        "subtitle": "",
+        "location": [61, 0],
+        "depends": ["titanium"],
+        "index": 98
+    },
+    {
+        "id": "titaniumdrill",
+        "title": "Titanium Drill",
+        "subtitle": "",
+        "location": [61, -2],
+        "depends": ["titanium"],
+        "index": 99
+    },
+    {
+        "id": "rawiridium",
+        "title": "Raw Iridium",
+        "subtitle": "",
+        "location": [61, 2],
+        "depends": ["titanium"],
+        "index": 100
+    },
+    {
+        "id": "superconductorcable",
+        "title": "Superconductor Cable",
+        "subtitle": "I'm a Real Live Wire",
+        "location": [63, 2],
+        "depends": ["rawiridium"],
+        "index": 101
+    },
+    {
+        "id": "ultimatelaserdrill",
+        "title": "Ultimate Laser Drill",
+        "subtitle": "The \"Do It All\" Tool!",
+        "location": [62.25, 4],
+        "optionalDepends": ["superconductorcable"],
+        "index": 102
+    },
+    {
+        "id": "gravichestplate",
+        "title": "GraviChestplate",
+        "subtitle": "",
+        "location": [63.75, 4],
+        "optionalDepends": ["superconductorcable"],
+        "index": 103
+    },
+    {
+        "id": "nanogravichestplate",
+        "title": "Nano GraviChestplate",
+        "subtitle": "GraviChestplate but in black!",
+        "location": [63.75, 6],
+        "optionalDepends": ["gravichestplate"],
+        "index": 104
+    },
+    {
+        "id": "implosioncompressor",
+        "title": "Implosion Compressor",
+        "subtitle": "",
+        "location": [63, 0],
+        "depends": ["blastproofalloyplate"],
+        "index": 105
+    },
+    {
+        "id": "nuclearreactor",
+        "title": "Nuclear Reactor",
+        "subtitle": "3.6 - Not great, not terrible.",
+        "location": [65, -2],
+        "depends": ["implosioncompressor"],
+        "index": 106
+    },
+    {
+        "id": "giveup",
+        "title": "Give Up?",
+        "subtitle": "",
+        "location": [65, -4],
+        "depends": ["nuclearreactor"],
+        "index": 107
+    },
+    {
+        "id": "legalizednuclearbomb",
+        "title": "Legalized Nuclear Bomb",
+        "subtitle": "",
+        "location": [67, -2],
+        "depends": ["nuclearreactor"],
+        "index": 108
+    },
+    {
+        "id": "singularity",
+        "title": "Singularity",
+        "subtitle": "",
+        "location": [69, -2],
+        "depends": ["legalizednuclearbomb"],
+        "index": 109
+    },
+    {
+        "id": "uumatterbucket",
+        "title": "UU Matter Bucket",
+        "subtitle": "",
+        "location": [71, -2],
+        "depends": ["singularity"],
+        "index": 110
+    },
+    {
+        "id": "mixediridiumingot",
+        "title": "Mixed Iridium Ingot",
+        "subtitle": "",
+        "location": [65, 2],
+        "depends": ["implosioncompressor"],
+        "index": 111
+    },
+    {
+        "id": "theendgame",
+        "title": "&5The Endgame",
+        "subtitle": "",
+        "location": [67, 2],
+        "depends": ["mixediridiumingot"],
+        "index": 112
+    },
+    {
+        "id": "fusionreactor",
+        "title": "Fusion Reactor",
+        "subtitle": "That's Mr. Fusion to You!",
+        "location": [69, 0],
+        "depends": ["theendgame"],
+        "index": 113
+    },
+    {
+        "id": "plasmaturbine",
+        "title": "Plasma Turbine",
+        "subtitle": "",
+        "location": [71, 0],
+        "depends": ["fusionreactor"],
+        "index": 114
+    },
+    {
+        "id": "quantumupgrade",
+        "title": "Quantum Upgrade",
+        "subtitle": "",
+        "location": [71, 2],
+        "depends": ["theendgame"],
+        "index": 115
+    },
+    {
+        "id": "replicator",
+        "title": "&5Replicator",
+        "subtitle": "Legal Duplication",
+        "location": [73, 0],
+        "depends": ["quantumupgrade", "uumatterbucket"],
+        "index": 116
+    },
+    {
+        "id": "quantumarmory",
+        "title": "&5Quantum Armory",
+        "subtitle": "True Power!",
+        "location": [71, 4],
+        "depends": ["quantumupgrade"],
+        "index": 117
+    },
+    {
+        "id": "quantumnanoset",
+        "title": "&aQuantum Nano Set",
+        "subtitle": "Mark 2, Fasion and more Gadgets!",
+        "location": [71, 6],
+        "optionalDepends": ["quantumarmory"],
+        "index": 118
+    }
+]

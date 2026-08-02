@@ -1,0 +1,1 @@
+The &bSteel Drill&r gives you the rest of the &6more commonly used ores&r that you'll need for further progression in your journey to total automation, but also in your journey of the world itself. Check your EMI for all the possible outputs.

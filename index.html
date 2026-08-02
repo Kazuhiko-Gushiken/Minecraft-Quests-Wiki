@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="./quests.css?v=0.5.1">
+    </head>
+    <body>
+        <div id="sidebar">
+            <h2>Mod Chapters</h2>
+        </div>
+
+        <canvas id="out"></canvas>
+
+        <div id="questOverlay" class="hidden">
+            <div id="questCard">
+                <div id="questHeaderWrapper">
+                    <div id="questHeader">
+                        <button id="copyQuestLink" title="Copy Link"></button>
+                        <canvas id="questIcon" width="96" height="96"></canvas>
+                        <h1 id="questTitle"></h1>
+                        <h2 id="questSubtitle"></h2>
+                    </div>
+                </div>
+                <hr>
+                
+                <div id="questDescriptionWrapper">
+                        <div id="questDescription"></div>
+                </div>
+            </div>
+        </div>
+
+        <script type="module" src="./quests.js?v=0.5.1"></script>
+    </body>
+</html>

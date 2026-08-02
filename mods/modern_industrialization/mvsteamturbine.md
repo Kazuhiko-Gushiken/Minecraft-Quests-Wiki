@@ -1,0 +1,3 @@
+Time for a major upgrade! Previously you've only been able to produce electricity at 32 eu/t per turbine using the &bLV Steam Turbine&r, but now you'll be &6able to make a maximum of 128 eu/t&r out of the brand new &bMV Steam Turbine&r! Aside from the increase in energy production four-fold, it acts just like the &bLV Steam Turbine&r.
+
+One thing to keep in mind is that &6you wont be able to use the same cables as you were able to before&r. Now you'll need to use &bCupronickel&r or &bElectrum&r cables to be able to transfer this new MV tier of power.

@@ -1,0 +1,3 @@
+Flexible, non-conductive, and strong. &bRubber&r will be a major part of every electric machine. You can produce it by &6mixing&r &bPaper&r with either &bSynthetic Oil&r or &bSynthetic Rubber&r. Mix the &bCoke Dust&r you made with &bWater&r in a &bMixer&r to produce &bRaw Synthetic Oil&r. Use a &bSteam Blast Furnace&r to produce these two fluids. &bSynthetic Rubber&r is more difficult to obtain, &6but will yield more rubber per sheet of paper&r.
+
+Remember that you'll need a &olot&r of &bRubber Sheets&r in the long run, so you'll need to make them constantly. Note that you can use &bWood&r to &6grind down&r and turn into &bWood Pulp&r which can then be turned into &bPaper&r with a high output yield.

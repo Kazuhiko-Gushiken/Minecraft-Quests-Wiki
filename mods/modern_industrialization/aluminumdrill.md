@@ -1,0 +1,1 @@
+&6The &bAluminum Drill&r &6allows you to drill for &bCrude Oil&r. It'll find pockets of oil in the ground and automatically pump it up through the drill and to the surface.

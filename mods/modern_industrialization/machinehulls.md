@@ -1,0 +1,3 @@
+&bMachine Hulls&r contain the main electronics to allow machines to run. There are different tiers to machine hulls, each allowing you to upgrade your machines. The &bBasic Machine Hull&r is the base of every machine that takes LV power.
+
+If you want your machine to accept MV power, you must upgrade it using an &bAdvanced Machine Hull&r. You can do this by &6right clicking the machine with the upgraded hull&r in your hand or by placing it in the top right slot of the machine's GUI that seems to have a small isometric cube depiction. You can do the same with higher tier hulls as they will allow for higher tier power sources.

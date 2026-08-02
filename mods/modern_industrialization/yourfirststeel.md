@@ -1,0 +1,5 @@
+Darker and cooler than Iron... Plus about 1000 times stronger. It's time to make some &bSteel&r! Use that coal coke you produced earlier and crush it down to a pile of dust. Then, combine that with iron dust to get your &bUncooked Steel Dust&r. Remember, &6using the &bMixer&r will increase your output.&r
+
+Now, remember the finest steel has to go through the hottest fire; so we'll be using the &6Steam Blast Furnace&r to reach the extreme temperatures required to melt down the powdered mixture and fuse them together.
+
+Now that you have obtained steel, you can upgrade your bronze machines with &bSteel Machine Upgrades&r. Steel machines can process recipes up to 4 EU/t and will &6process recipes at twice the speed than normal&r as long as the energy usage doesn't go above 4 EU/t. With this higher roof of energy usage, you might be able to make new things now.

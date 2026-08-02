@@ -1,0 +1,10 @@
+[
+    {
+        "id": "welcome",
+        "title": "Welcome!",
+        "subtitle": "",
+        "location": [0, 0],
+        "depends": [],
+        "index": 1
+    }
+]

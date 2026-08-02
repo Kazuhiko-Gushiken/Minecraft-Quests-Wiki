@@ -1,0 +1,5 @@
+Need a steamy upgrade? I know I do! The &bLarge Steam Boiler&r is an upgraded version of the smaller bronze and steel boilers. &6It uses fuel 8 times faster&r than the Furnace, but it produces &6256 mb/t of steam&r when at max temperature. Make sure you don't forget to provide it &bWater&r!
+
+The main block you'll need is &bBronze Plated Bricks&r, but you'll also need other blocks shown in your EMI. The &bLarge Steam Boiler&r is comprised of one layer of &bHeatproof Machine Casings&r with layers of &6Bronze Plated Bricks&r and &6Pipe Machine Casings&r.
+
+The Controller is on the second layer, on top of the &bHeatproof Machine Casings&r. &6Don't forget you can use your &bWrench&r &6to show the shape of the multiblock and placement of the blocks needed for it&r. The required hatches must be placed on the bottom layer. You'll need a way to input water and a solid fuel, as well as a way to extract &bSteam&r.

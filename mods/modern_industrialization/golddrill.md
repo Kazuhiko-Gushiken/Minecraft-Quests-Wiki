@@ -1,0 +1,1 @@
+The &bGold Drill&r produces ores and building blocks that you'd expect to find in the confines of the Nether Region.

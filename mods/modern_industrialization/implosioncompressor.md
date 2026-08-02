@@ -1,0 +1,3 @@
+Using &bIndustrial TNT&r, the &bImplosion Compressor&r is able to compress the dusts and ingots of the most resistant materials. This includes &bTungsten&r, &bBlast-proof Alloy&r, &bBeryllium&r and finally &bDiamonds&r! Some of those materials will be very important for your journey into nuclear fission.
+
+Now, you've probably noticed that in your journey, you've been able to make &bBlast-proof Alloy Plates&b and &rTungsten Nuggets&r within your everyday compressor, despite it being a pretty inefficient process. Well now, using the &bImplosion Compressor&r, you'll be able to do it faster and even more efficient!

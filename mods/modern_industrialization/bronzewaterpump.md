@@ -1,0 +1,3 @@
+Wondering about automatic &bWater&r pumping are you? Good thing you can do nearly anything you want! A &bWater Pump&r will automatically collect &bWater&r and &6transfer it to adjacent blocks&r. Make sure to place water sources surrounding the pump horizontally, give it &bSteam&r, and it will start producing &bWater&r for 1 EU/t.
+
+The &bBronze Water Pump&r will produce &6125mb of &bWater&r for every adjacent water source every 5 seconds&r, allowing for a maximum output of 1000mb every 5 seconds.
