@@ -41,7 +41,22 @@ In `/mods/<mod>` (`<mod>` being the chapter id and mod id (they need to match)) 
 - Quest Dependencies/Optional Dependencies/Related Quests
 - Index (needed for Icon Sprites)
 
+```
+[
+    {
+        "id": "quest",
+        "title": "Quest",
+        "subtitle": "The best quest!",
+        "location": [2, 0],
+        "depends/optionalDepends/related": ["anotherquest", "andanother"],
+        "index": 3
+    }
+]
+```
+
 Each quest ID should match it's paired quest description file within the `/mods/<mod>` folder and thus have the same name. As of now, only the Minecraft Legacy Formatting works, so any Markdown formatting, including links, images, tables, emphasis, etc. will not render properly. LaTeX rendering is also a future feature.
+
+The quest dependencies can either be `depends` meaning the line/arrow that connects the two will be a solid color, showing a required dependency. For `optionalDepends`, you'll get a dotted line and arrow to show the progression line, but that quest is optional for the overall mod progression. For `related` it will be a dotted line with no arrow to show relation, but nothing in terms of progression.
 
 In `/mods/<mod>` you may add a background image, one with either of the 4 following extensions:
 - .png
