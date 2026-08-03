@@ -80,6 +80,8 @@ Animated sprites will be supported in the future using an automated system to ta
 - Flags
 - Reserve
 
+Icons for sprites are being obtained with [this mod](https://www.curseforge.com/minecraft/mc-mods/item-icon-exporter) for now, though a custom mod to make life easier will be a future addition (if this wiki idea takes off).
+
 ## Formatting
 
 The main formatting method (at the current moment) is Minecraft Legacy Formatting. These can be used in the following locations:
@@ -105,6 +107,7 @@ Each new line line in the markdown files will add a natural line break.
 2. Don't go overboard with references. In the first quest chapter (Modern Industrialization), I've slotted a few references, but they aren't in every chapter.
 3. Keep everything PG... You know, how they did in your favorite kids shows?
 4. For the time being, keep explanations relatively simple (given you can get away with it). I plan to add options for a hidden "spoiler" extension that lets you, by default, hide complexities such as mathematical formulas that relate to mod mechanics.
+5. Use the same method of icon exporting for the entire quest chapter for consistency, as some mods that export item icons may process them differently.
 
 ## TODO:
 
