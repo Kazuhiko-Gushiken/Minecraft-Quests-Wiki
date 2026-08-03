@@ -70,8 +70,8 @@ ctx = canvas.getContext("2d");
 // TODO:
 // fine tune trackpad movement, pan and zoom. pan should be easy, but zoom is a little finicky? need to test more
 // add mobile panning, zooming, clicking, as well as proper scaling to fit and start within screen for mobile users.
-// query parameter to link to specific quests. add a button within a quest window (top right) as well as maybe ctrl+click on quest to copy link to it. something like: "https://enginnx.com/minecraft/wiki/quests?c=modern_industrialization&q=yourfirststeel" where c is chapter and q is quest. keep it short.
-// when someone goes to quest link, it needs to do camera.zoom: 2 with the camera positioned on the quest coordinates. and then, add the quest icon on the top middle of the quest desc window, like: https://discord.com/channels/754461970870173767/763394390466101279/1532668667073134753
+// [DONE] query parameter to link to specific quests. add a button within a quest window (top right) as well as maybe ctrl+click on quest to copy link to it. something like: "https://enginnx.com/minecraft/wiki/quests?c=modern_industrialization&q=yourfirststeel" where c is chapter and q is quest. keep it short.
+// [DONE] when someone goes to quest link, it needs to do camera.zoom: 2 with the camera positioned on the quest coordinates. and then, add the quest icon on the top middle of the quest desc window, like: https://discord.com/channels/754461970870173767/763394390466101279/1532668667073134753
 
 canvas.addEventListener("mousedown", e => {
     if (e.button !== 0) return;
@@ -691,7 +691,7 @@ async function init() {
 
         const button = document.createElement("button");
 
-        button.textContent = chapter.title;
+        button.innerHTML = formatRawHtml(chapter.title);
 
         chapterButtons.set(chapter.id, button);
 
