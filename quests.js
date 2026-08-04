@@ -61,6 +61,17 @@ const extensions = ["png", "webp", "jpg", "jpeg"];
 
 let pendingQuestId = null;
 
+const gridToggle = document.getElementById("gridToggle");
+
+renderGrid = localStorage.getItem("renderGrid") !== "false";
+gridToggle.checked = renderGrid;
+
+gridToggle.addEventListener("change", () => {
+    renderGrid = gridToggle.checked;
+    localStorage.setItem("renderGrid", renderGrid);
+    renderQuest();
+});
+
 let canvas;
 let ctx;
 
@@ -121,7 +132,7 @@ canvas.addEventListener("mousemove", e => {
     renderQuest();
 });
 
-document.querySelectorAll("#sidebar [chapter]").forEach(button => {
+document.querySelectorAll("#sidebarButtons [chapter]").forEach(button => {
     button.addEventListener("click", () => {
         loadChapter(button.dataset.chapter);
     });
@@ -161,6 +172,46 @@ canvas.addEventListener("wheel", e => {
 
     renderQuest();
 }, { passive: false });
+
+async function loadCredits(chapter) {
+
+    if (activeChapterButton) {
+        activeChapterButton.classList.remove("active");
+    }
+
+    activeChapterButton = chapterButtons.get(chapter.id);
+
+    if (activeChapterButton) {
+        activeChapterButton.classList.add("active");
+    }
+
+    currentChapter = chapter.id;
+
+    const response = await fetch(
+        `mods/${currentChapter}/!credits.md`
+    );
+
+    questTitle.innerHTML = "Credits";
+
+    questSubtitle.innerHTML = "Credits for the " + chapter.title + " chapter."
+
+    questDescription.innerHTML = response.ok ? markdownToHtml(await response.text()) : "";
+
+    const url = new URL(window.location);
+
+    url.searchParams.set("c", chapter.id);
+    url.searchParams.set("l", "true")
+
+    if (!pendingQuestId) {
+        url.searchParams.delete("q");
+    }
+
+    history.replaceState({}, "", url);
+
+    renderQuest();
+
+    overlay.classList.remove("hidden");
+}
 
 async function loadChapter(chapter) {
 
@@ -369,6 +420,7 @@ function closeQuest() {
 
     url.searchParams.set("c", currentChapter);
     url.searchParams.delete("q");
+    url.searchParams.delete("l");
 
     history.replaceState({}, "", url);
 
@@ -669,6 +721,14 @@ async function init() {
 
     const chapterId = params.get("c");
     pendingQuestId = params.get("q");
+    const credits = params.get("l");
+
+    const chapter = chapters.find(c => c.id === chapterId);
+
+    if (credits) {
+        console.log(chapter);
+        loadCredits(chapter);
+    }
 
     document.getElementById("copyQuestLink").onclick = async () => {
         await navigator.clipboard.writeText(window.location.href);
@@ -695,12 +755,18 @@ async function init() {
 
         chapterButtons.set(chapter.id, button);
 
-        button.addEventListener("click", () => {
+        button.addEventListener("click", (e) => {
 
-            loadChapter(chapter);
+            if (e.ctrlKey) {
+                loadChapter(chapter);
+                console.log("I CLICKED IT")
+                loadCredits(chapter);
+            } else {
+                loadChapter(chapter);
+            }
         });
 
-        sidebar.appendChild(button);
+        sidebarButtons.appendChild(button);
     }
 
     if (chapters.length > 0) {
@@ -714,6 +780,7 @@ async function init() {
 
             pendingQuestId = null;
             url.searchParams.delete("q");
+            url.searchParams.delete("l");
         }
 
         url.searchParams.set("c", chapter.id);
