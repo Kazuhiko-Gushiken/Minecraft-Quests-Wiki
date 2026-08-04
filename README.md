@@ -110,6 +110,16 @@ Each new line line in the markdown files will add a natural line break.
 5. Use the same method of icon exporting for the entire quest chapter for consistency, as some mods that export item icons may process them differently.
 6. Any sprites that are not within a permissible license, please do ask for permission, take a screenshot, and keep it (or even add it to a PR as `!credits.<ext>` in the mod directory).
 
+## Licensing
+
+If you are a mod author and you are contributing a chapter using textures from your own mod, you agree that you have gotten permission to submit those icons or you are giving permission for the wiki to use those icons solely for use within the wiki. You are giving perpetual and irrevocable permission for versions of the wiki already published incase the project grows overtime. If you are contributing those textures, provide a `!credit.md` file as well with the credits you'd like or the credits it needs to have.
+
+Any icons or textures used in this wiki are not to be distributed as a standalone asset pack or used commercially.
+
+Quest descriptions are licensed under CC BY-SA 4.0. If you are a writer and would like credit in the credits page, please add yourself to it. If you are a writer and want to license your quest descriptions under something else or ARR, please make it known in the credits page, although the wiki will still hold rights to use it perpetually with irrevocable permission.
+
+Quest backgrounds are licensed under ARR and it's use outside of this wiki are subject to the creator (find using commit history). If you are a writer and would like to take credit.
+
 ## TODO:
 
 - Sub-chapters
