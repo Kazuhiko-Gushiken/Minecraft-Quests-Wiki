@@ -108,6 +108,7 @@ Each new line line in the markdown files will add a natural line break.
 3. Keep everything PG... You know, how they did in your favorite kids shows?
 4. For the time being, keep explanations relatively simple (given you can get away with it). I plan to add options for a hidden "spoiler" extension that lets you, by default, hide complexities such as mathematical formulas that relate to mod mechanics.
 5. Use the same method of icon exporting for the entire quest chapter for consistency, as some mods that export item icons may process them differently.
+6. Any sprites that are not within a permissible license, please do ask for permission, take a screenshot, and keep it (or even add it to a PR as `!credits.<ext>` in the mod directory).
 
 ## TODO:
 
