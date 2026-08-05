@@ -2,9 +2,17 @@
     {
         "id": "welcome",
         "title": "Welcome!",
-        "subtitle": "",
+        "subtitle": "Quests? In the browser?",
         "location": [0, 0],
         "depends": [],
         "index": 1
+    },
+    {
+        "id": "contributing",
+        "title": "Want to contribute?",
+        "subtitle": "More? More!",
+        "location": [0, 2],
+        "related": ["welcome"],
+        "index": 2
     }
 ]

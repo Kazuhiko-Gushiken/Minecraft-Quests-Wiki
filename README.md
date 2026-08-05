@@ -18,7 +18,7 @@ An example below:
         "id": "example_mod",
         "title": "Example Mod",
         "spriteSheet": true,
-        "background": true,
+        "background": "!background.png",
         "camera": {
             "x": 36,
             "y": 0,

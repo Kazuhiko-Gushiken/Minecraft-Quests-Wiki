@@ -1,0 +1,1 @@
+If you'd like to contribute to this quest wiki, read about whats required and how to do so here: https://github.com/Kazuhiko-Gushiken/Minecraft-Quests-Wiki

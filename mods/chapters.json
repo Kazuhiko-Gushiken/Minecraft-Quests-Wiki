@@ -2,8 +2,8 @@
     {
         "id": "getting_started",
         "title": "Getting Started",
-        "spriteSheet": false,
-        "background": false,
+        "spriteSheet": true,
+        "background": "!background.png",
         "default": true,
         "camera": {
             "x": 0,
