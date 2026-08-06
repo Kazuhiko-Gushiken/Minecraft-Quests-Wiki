@@ -1,0 +1,1 @@
+A &6Meteorite&r will always contain a &bMysterious Cube&r. Once you find a &bMysterious Cube&f, you must break it to obtain all of the &bInscriber Press's&f.

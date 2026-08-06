@@ -1,0 +1,1 @@
+The &bBasic Terminal&f allows you to access your &bstorage&f, but it can be upgraded.

@@ -1,0 +1,1 @@
+By setting up two &bQuantum Rings&f, you can connect your &bME System&f to anywhere in the world. Connect the first one to your &bME System&f and the second one where you wish to have your &bME System&f linked. You'll need 2 &bEntangled Singularities&f, place one of them in each &bQuantum Ring&f, after which they'll be linked together.

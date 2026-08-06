@@ -1,0 +1,1 @@
+These are pylons designed to outline the volume you wish to store into spatial drives. You must use these to outline 3 edges to an imaginary box surrounding the build. Each line of them uses 1 channel and each line needs to be at at least 2 pylons long. Try experimenting with the number of lines and how much power it uses! You might be able to optimize your digitizing.

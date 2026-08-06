@@ -1,0 +1,1 @@
+If you want to speed up the &6growth &fof your &bCrystals&f, you can &6place &bGrowth Accelerators&f adjacent to the &bBudding Block&f. The &bGrowth Accelerator&f requires power from either the top or the bottom.

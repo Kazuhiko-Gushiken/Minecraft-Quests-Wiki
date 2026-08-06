@@ -1,0 +1,1 @@
+&6Crafting Components&f are used to craft &bCo-Processing Units&r and &bCrafting Storages&b.

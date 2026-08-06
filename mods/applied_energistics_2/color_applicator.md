@@ -1,0 +1,3 @@
+The &bColor Applicator can be used to &6paint&b colorable blocks&f, which include cables, wool, terracotta, glass, concrete and anything else you can think of&f. Use&b Paintballs or Specific Dyes&b to &6paint &fand &bsnowballs&6 to clean off the paint&f. Use the &bCharger&f to charge the Applicator.
+
+The &bColor Applicator &fworks like a &bStorage Cell&f, so to fill it, use the &fME Chest&f. &6Right-Click &fto apply a color and &6Scroll-Wheel to change colors while holding shift&f. Test different upgrades to see if they can help your &bColor Applicator&f!

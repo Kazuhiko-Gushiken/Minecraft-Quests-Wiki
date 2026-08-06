@@ -1,0 +1,1 @@
+The &bMatter Condencer &fwill allow you to &6make &bMatter Balls&f for the &bPaint Gun&f, and &6make&b Singularities &fat the cost of &aitem entities&f.

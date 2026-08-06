@@ -1,0 +1,1 @@
+Required for autocrafting, as these store the items and fluids used in crafts.

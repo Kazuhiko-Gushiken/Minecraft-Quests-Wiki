@@ -327,6 +327,11 @@ function drawBackground() {
 
     const overscan = 8; //draw image oversized a bit to prevent white blurred edges
 
+    // dddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddd
+
+    ctx.fillStyle = "black";
+    ctx.fillRect(0, 0, canvas.width, canvas.height);
+
     ctx.drawImage(
         backgroundImage,
         (canvas.width - width) / 2 - overscan,

@@ -1,0 +1,1 @@
+This is an &bEnergy Cell &fthat can hold &bpower&f to be used by your system during times of a &6power outages&f. It can also handle &6instant power draw&f from machines you might use down the road.

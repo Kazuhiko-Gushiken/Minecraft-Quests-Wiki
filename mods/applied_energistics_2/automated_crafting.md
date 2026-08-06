@@ -1,0 +1,1 @@
+To start &6Autocrafting&6 you must first make a &bPattern&f with a &bPattern Encoding Terminal&f, then &6place&f that &bpattern&f in the &bPattern Provider&f.

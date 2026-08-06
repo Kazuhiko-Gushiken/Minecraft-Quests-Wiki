@@ -1,0 +1,1 @@
+The&b Storage Bus&f allows you to use a chest or other storage box a &5network &ffor your &bME System&f to connect to rather then a &bStorage Drive&f.

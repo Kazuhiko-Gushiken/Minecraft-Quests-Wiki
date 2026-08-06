@@ -1,0 +1,1 @@
+This is used to &6copy and paste&r settings of &bME Devices&f. This is also used to &6link &bP2P Tunnels&f.

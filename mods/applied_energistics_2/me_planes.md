@@ -1,0 +1,1 @@
+The&b Annihilation Plane&f will &6break blocks&f and&6 pick up&6&b items&f directly in front of it.

@@ -1,0 +1,1 @@
+The &bBlank Pattern&f is used to make &acrafting recipes &6automated&f. You must &6encode &fthe &bBlank Pattern &fin the &bPattern Encoder&f, then place it into a &bPattern Provider&f.

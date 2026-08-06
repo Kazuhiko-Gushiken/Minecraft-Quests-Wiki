@@ -1,0 +1,3 @@
+The &bSpatial IO Port &fis the core of the &bSpatial Digitizing system&f. It's placed at the vertex where all 3 &bpylon edges &fmeet. It's where you place the &bSpatial Drive &fand allow it to&6 capture a build or rlease it&f. This is also the block to power when charging the system.
+
+You can also interact with the &bSpatial IO Port with hoppers&f or other piping methods to automate the process if you so desire. A &6redstone signal&f is all the &bSpatial IO Port&f needs to activate. Be careful!

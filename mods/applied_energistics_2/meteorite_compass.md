@@ -1,0 +1,1 @@
+In order to find a &6Meteorite&r you'll be needing to craft the &bMeteorite Compass&r. With the &bCompass&f it will point you to the closest &6Meteorite&f.

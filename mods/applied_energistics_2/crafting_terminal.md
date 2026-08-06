@@ -1,0 +1,1 @@
+The &bCrafting Terminal&f is the upgraded version of the &bTerminal&f. This will allow you craft while accessing all of your items.

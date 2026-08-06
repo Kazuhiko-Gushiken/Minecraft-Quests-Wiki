@@ -1,0 +1,1 @@
+&bCrafting Co-processor&f are used to speed up and to allow for more then one item to craft while crafting more complex recipe.

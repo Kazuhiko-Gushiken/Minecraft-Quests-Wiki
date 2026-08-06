@@ -1,9 +1,507 @@
 [
     {
-        "id": "ae2",
-        "title": "Applied Energistics 2",
-        "location": [0, 0],
+        "id": "mysterious_cube",
+        "title": "Mysterious Cube",
+        "location": [-4, 6],
+        "subtitle": "What is this?",
+        "depends": [],
+        "index": 1
+    },
+    {
+        "id": "budding_blocks",
+        "title": "Budding Blocks",
+        "location": [-4, 4],
         "subtitle": "",
-        "depends": []
+        "depends": ["mysterious_cube"],
+        "index": 2
+    },
+    {
+        "id": "growth_accelerator",
+        "title": "Growth Accelerator",
+        "location": [-6, 4],
+        "subtitle": "",
+        "depends": ["budding_blocks"],
+        "index": 3
+    },
+    {
+        "id": "certus_quartz",
+        "title": "Certus Quartz",
+        "location": [-4, 2],
+        "subtitle": "",
+        "depends": ["budding_blocks"],
+        "index": 4
+    },
+    {
+        "id": "charged_certus",
+        "title": "Charged Certus",
+        "location": [-4, 0],
+        "subtitle": "",
+        "depends": ["certus_quartz", "charger"],
+        "index": 5
+    },
+    {
+        "id": "charger",
+        "title": "Charger",
+        "location": [-6, 0],
+        "subtitle": "Provides a way to charge supported tools through the ME Network.",
+        "depends": [],
+        "optionalDepends": ["vibration_chamber"],
+        "index": 6
+    },
+    {
+        "id": "fluix_crystal",
+        "title": "Fluix Crystal",
+        "location": [-4, -2],
+        "subtitle": "A very important ingredient.",
+        "depends": ["charged_certus"],
+        "index": 7
+    },
+    {
+        "id": "matter_condenser",
+        "title": "Matter Condenser",
+        "location": [-6, -2],
+        "subtitle": "",
+        "depends": ["fluix_crystal"],
+        "index": 8
+    },
+    {
+        "id": "singularities",
+        "title": "Singularities",
+        "location": [-8, -2],
+        "subtitle": "Make a connection!",
+        "depends": ["matter_condenser"],
+        "index": 9
+    },
+    {
+        "id": "quantum_ring",
+        "title": "Quantum Ring",
+        "location": [-10, -2],
+        "subtitle": "A piece of art.",
+        "depends": ["singularities"],
+        "index": 10
+    },
+    {
+        "id": "quartz_fiber",
+        "title": "Quartz Fiber",
+        "location": [-4.75, -4],
+        "subtitle": "",
+        "depends": ["fluix_crystal"],
+        "index": 11
+    },
+    {
+        "id": "fluix_glass_cable",
+        "title": "Fluid Glass Cable",
+        "location": [-4.75, -6],
+        "subtitle": "",
+        "depends": ["quartz_fiber"],
+        "index": 12
+    },
+    {
+        "id": "fluix_smart_cable",
+        "title": "Fluix Smart Cable",
+        "location": [-4.75, -8],
+        "subtitle": "The smarter brother.",
+        "depends": ["fluix_glass_cable"],
+        "index": 13
+    },
+    {
+        "id": "fluix_dense_smart_cable",
+        "title": "Fluix Dense Smart Cable",
+        "location": [-4.75, -10],
+        "subtitle": "Higher capacity cable!",
+        "depends": ["fluix_smart_cable"],
+        "index": 14
+    },
+    {
+        "id": "toggle_bus",
+        "title": "Toggle Bus",
+        "location": [-6.75, -8],
+        "subtitle": "",
+        "depends": ["fluix_glass_cable"],
+        "index": 15
+    },
+    {
+        "id": "energy_cell",
+        "title": "Energy Cell",
+        "location": [-3.25, -4],
+        "subtitle": "",
+        "depends": ["fluix_crystal"],
+        "index": 16
+    },
+    {
+        "id": "dense_energy_cell",
+        "title": "Dense Energy Cell",
+        "location": [-3.25, -6],
+        "subtitle": "",
+        "depends": ["energy_cell"],
+        "index": 17
+    },
+    {
+        "id": "silicon",
+        "title": "Silicon",
+        "location": [-2, 2],
+        "subtitle": "",
+        "depends": ["certus_quartz"],
+        "index": 18
+    },
+    {
+        "id": "inscriber",
+        "title": "Inscriber",
+        "location": [0, 2],
+        "subtitle": "",
+        "depends": ["silicon"],
+        "index": 19
+    },
+    {
+        "id": "basic_processors",
+        "title": "Basic Processors",
+        "location": [2, 2],
+        "subtitle": "",
+        "depends": ["inscriber"],
+        "index": 20
+    },
+    {
+        "id": "basic_card",
+        "title": "Basic Card",
+        "location": [1.25, 4],
+        "subtitle": "",
+        "depends": ["basic_processors"],
+        "index": 21
+    },
+    {
+        "id": "basic_upgardes",
+        "title": "Basic Upgrades",
+        "location": [1.25, 6],
+        "subtitle": "",
+        "depends": ["basic_card"],
+        "index": 22
+    },
+    {
+        "id": "advanced_card",
+        "title": "Advanced Card",
+        "location": [2.75, 4],
+        "subtitle": "",
+        "depends": ["basic_processors"],
+        "index": 23
+    },
+    {
+        "id": "advanced_upgrades",
+        "title": "Advanced Upgrades",
+        "location": [2.75, 6],
+        "subtitle": "",
+        "depends": ["advanced_card"],
+        "index": 24
+    },
+    {
+        "id": "spatial_io_port",
+        "title": "Spatial IO Port",
+        "location": [1.25, 0],
+        "subtitle": "",
+        "depends": ["basic_processors"],
+        "index": 25
+    },
+    {
+        "id": "small_spatial_component",
+        "title": "Small Spatial Component",
+        "location": [1.25, -2],
+        "subtitle": "",
+        "depends": ["spatial_io_port"],
+        "index": 26
+    },
+    {
+        "id": "medium_spatial_component",
+        "title": "Medium Spatial Component",
+        "location": [1.25, -4],
+        "subtitle": "",
+        "depends": ["small_spatial_component"],
+        "index": 27
+    },
+    {
+        "id": "large_spatial_component",
+        "title": "Large Spatial Component",
+        "location": [1.25, -6],
+        "subtitle": "",
+        "depends": ["medium_spatial_component"],
+        "index": 28
+    },
+    {
+        "id": "1k_storage_component",
+        "title": "1k Storage Component",
+        "location": [2.75, 0],
+        "subtitle": "",
+        "depends": ["basic_processors"],
+        "index": 29
+    },
+    {
+        "id": "4k_storage_component",
+        "title": "4k Storage Component",
+        "location": [2.75, -2],
+        "subtitle": "",
+        "depends": ["1k_storage_component"],
+        "index": 30
+    },
+    {
+        "id": "16k_storage_component",
+        "title": "16k Storage Component",
+        "location": [2.75, -4],
+        "subtitle": "",
+        "depends": ["4k_storage_component"],
+        "index": 31
+    },
+    {
+        "id": "64k_storage_component",
+        "title": "64k Storage Component",
+        "location": [2.75, -6],
+        "subtitle": "",
+        "depends": ["16k_storage_component"],
+        "index": 32
+    },
+    {
+        "id": "256k_storage_component",
+        "title": "256k Storage Component",
+        "location": [2.75, -8],
+        "subtitle": "",
+        "depends": ["64k_storage_component"],
+        "index": 33
+    },
+    {
+        "id": "spatial_pylon",
+        "title": "Spatial Pylon",
+        "location": [-0.75, 0],
+        "subtitle": "",
+        "depends": ["spatial_io_port"],
+        "index": 34
+    },
+    {
+        "id": "me_controller",
+        "title": "ME Controller",
+        "location": [5, 2],
+        "subtitle": "The brain!",
+        "depends": ["basic_processors"],
+        "index": 35
+    },
+    {
+        "id": "me_drive",
+        "title": "ME Drive",
+        "location": [5, 4],
+        "subtitle": "",
+        "depends": ["me_controller"],
+        "index": 36
+    },
+    {
+        "id": "me_io_port",
+        "title": "ME IO Port",
+        "location": [5, 6],
+        "subtitle": "",
+        "depends": ["me_drive"],
+        "index": 37
+    },
+    {
+        "id": "p2p",
+        "title": "P2P",
+        "location": [5, 0],
+        "subtitle": "Dense squared!",
+        "depends": ["me_controller"],
+        "index": 38
+    },
+    {
+        "id": "memory_card",
+        "title": "Memory Card",
+        "location": [5, -2],
+        "subtitle": "",
+        "related": ["p2p"],
+        "index": 39
+    },
+    {
+        "id": "cores",
+        "title": "Cores",
+        "location": [8, 2],
+        "subtitle": "",
+        "depends": ["me_controller"],
+        "index": 40
+    },
+    {
+        "id": "terminal",
+        "title": "Terminal",
+        "location": [7.25, 4],
+        "subtitle": "",
+        "depends": ["cores"],
+        "index": 41
+    },
+    {
+        "id": "crafting_terminal",
+        "title": "Crafting Terminal",
+        "location": [6.5, 6],
+        "subtitle": "",
+        "depends": ["terminal"],
+        "index": 42
+    },
+    {
+        "id": "wireless_crafting_terminal",
+        "title": "Wireless Crafting Terminal",
+        "location": [6.5, 8],
+        "subtitle": "",
+        "depends": ["crafting_terminal", "wireless_terminal"],
+        "index": 43
+    },
+    {
+        "id": "wireless_terminal",
+        "title": "Wireless Terminal",
+        "location": [8, 6],
+        "subtitle": "",
+        "depends": ["terminal"],
+        "index": 44
+    },
+    {
+        "id": "me_wireless_access_point",
+        "title": "ME Wireless Access Point",
+        "location": [8.75, 8],
+        "subtitle": "",
+        "depends": ["wireless_terminal"],
+        "index": 45
+    },
+    {
+        "id": "me_planes",
+        "title": "ME Planes",
+        "location": [8.75, 4],
+        "subtitle": "In-world interaction.",
+        "depends": ["cores"],
+        "index": 46
+    },
+    {
+        "id": "me_interface",
+        "title": "ME Interface",
+        "location": [7.25, 0],
+        "subtitle": "",
+        "depends": ["cores"],
+        "index": 47
+    },
+    {
+        "id": "me_storage_bus",
+        "title": "ME Storage Bus",
+        "location": [7.25, -2],
+        "subtitle": "",
+        "depends": ["me_interface"],
+        "index": 48
+    },
+    {
+        "id": "me_buses",
+        "title": "ME Buses",
+        "location": [8.75, 0],
+        "subtitle": "",
+        "depends": ["cores"],
+        "index": 49
+    },
+    {
+        "id": "automated_crafting",
+        "title": "Automated Crafting",
+        "location": [10, 2],
+        "subtitle": "",
+        "depends": ["cores"],
+        "index": 50
+    },
+    {
+        "id": "me_pattern_terminals",
+        "title": "ME Pattern Terminals",
+        "location": [10.75, 0],
+        "subtitle": "",
+        "depends": ["automated_crafting"],
+        "index": 51
+    },
+    {
+        "id": "blank_pattern",
+        "title": "Blank Pattern",
+        "location": [11.5, -2],
+        "subtitle": "",
+        "depends": ["me_pattern_terminals"],
+        "index": 52
+    },
+    {
+        "id": "crafting_unit",
+        "title": "Crafting Unit",
+        "location": [12, 2],
+        "subtitle": "",
+        "depends": ["automated_crafting"],
+        "index": 53
+    },
+    {
+        "id": "crafting_processors",
+        "title": "Crafting Processors",
+        "location": [12.75, 4],
+        "subtitle": "",
+        "depends": ["crafting_unit"],
+        "index": 54
+    },
+    {
+        "id": "crafting_storage",
+        "title": "Crafting Storage",
+        "location": [12.75, 0],
+        "subtitle": "",
+        "depends": ["crafting_unit"],
+        "index": 55
+    },
+    {
+        "id": "crystal_resonance_generator",
+        "title": "Crystal Resonance Generator",
+        "location": [-2, -2],
+        "subtitle": "",
+        "depends": ["fluix_crystal"],
+        "index": 56
+    },
+    {
+        "id": "me_cell_housing",
+        "title": "ME Cell Housing",
+        "location": [1.25, -8],
+        "subtitle": "",
+        "related": ["256k_storage_component"],
+        "index": 57 
+    },
+    {
+        "id": "meteorite_compass",
+        "title": "What is the bol- roc- meteor?",
+        "location": [-4, 8],
+        "subtitle": "Find a meteorite.",
+        "depends": [],
+        "index": 58
+    },
+    {
+        "id": "guideme",
+        "title": "GuideME",
+        "location": [-2, 6],
+        "subtitle": "In-game help.",
+        "depends": [],
+        "index": 59
+    },
+    {
+        "id": "network_tool",
+        "title": "Network Tool",
+        "location": [2, 9],
+        "subtitle": "",
+        "depends": [],
+        "index": 60
+    },
+    {
+        "id": "matter_cannon",
+        "title": "Matter Cannon",
+        "location": [0, 9],
+        "subtitle": "",
+        "depends": [],
+        "index": 61
+    },
+    {
+        "id": "color_applicator",
+        "title": "Color Applicator",
+        "location": [4, 9],
+        "subtitle": "",
+        "depends": [],
+        "index": 62
+    },
+    {
+        "id": "vibration_chamber",
+        "title": "Vibration Chamber",
+        "location": [-6, 2],
+        "subtitle": "",
+        "depends": [],
+        "index": 63
     }
 ]

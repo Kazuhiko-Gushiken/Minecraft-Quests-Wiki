@@ -1,0 +1,1 @@
+The &bCrystal Resonance Generator&f provides a constant free 20AE/t, yet you're limited to one per network.

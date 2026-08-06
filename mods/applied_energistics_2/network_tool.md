@@ -1,0 +1,1 @@
+The &bNetwork Tool &fis an upgraded &bWrench&f that shows &6Network Diagnostic Information&f as well as store upgrade cards.&6 Right-Clicking&f any part of a &bNetwork&f will show diagnostics the same way the &bME Controller&f does. It also temporarily makes &bFacades&f transparent so you can find hidden cables.

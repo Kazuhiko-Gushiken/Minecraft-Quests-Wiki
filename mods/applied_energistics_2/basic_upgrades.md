@@ -1,0 +1,1 @@
+The &bCapacity Card &fincreases the amount of filter slots in &bBuses&f.

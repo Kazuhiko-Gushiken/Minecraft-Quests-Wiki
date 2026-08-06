@@ -1,0 +1,1 @@
+To make &bFluix Crystals &6throw &bCharged Certus Quartz Crystal&f, &bNether Quartz&f, and &bRedstone Dust&f into a pool of &bwater &fand wait.

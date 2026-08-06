@@ -1,0 +1,1 @@
+The&b Toggle Bus &fis the same as a &bGlass Cable&f, but is used to &6temporarily disable&f the section of a system downstream from it when unpowered. &6Powering it&f will allow data and power to pass once again.

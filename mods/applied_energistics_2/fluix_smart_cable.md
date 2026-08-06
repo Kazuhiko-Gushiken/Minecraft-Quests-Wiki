@@ -1,0 +1,3 @@
+While bearing some similarity to the &bFluix ME Covered Cable&r in appearance, they provide diagnostic function by visualizing the &6channel usage&r on the &bcables&r, the &6channels&r appear as lit colored lines that run along the black stripe on the &bcables&r giving you an understanding of how your &6channels&r are being used on your &6network&r.
+
+The first four &6channels&r show as lines matching the color of the &bcable&r, the next four show as white lines.

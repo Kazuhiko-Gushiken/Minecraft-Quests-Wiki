@@ -1,0 +1,1 @@
+The &bBasic Card &fis a crafting component used to craft &bUpgrades&f.

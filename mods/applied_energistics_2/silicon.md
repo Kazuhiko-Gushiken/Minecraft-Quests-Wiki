@@ -1,0 +1,1 @@
+Obtained by &6smelting &bCertus Quartz Dust&f, &bSilicon&f is used in 3 different processors you will need to proceed.

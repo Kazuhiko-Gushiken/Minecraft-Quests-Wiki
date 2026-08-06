@@ -1,0 +1,1 @@
+Exact same thing as the &bWireless Terminal&f, but this one has a &bCrafting Interface&f in it!

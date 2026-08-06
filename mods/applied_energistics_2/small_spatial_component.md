@@ -1,0 +1,1 @@
+Up until now, you've only used&b Drives &fthat held &6two dimensional data&f, in the form of zeros and ones. Now, let's hold&6 three dimensional data&f, in the form of raw matter. This is a far more complex &bdrive&f type, so it'll be expensive and you wont be able to store much at the start. 

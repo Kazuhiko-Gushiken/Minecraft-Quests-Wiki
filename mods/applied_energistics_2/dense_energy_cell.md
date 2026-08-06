@@ -1,0 +1,1 @@
+The exact same thing as the one before, but with eight times the capacity. Don't accidentally discharge it! That might hurt.

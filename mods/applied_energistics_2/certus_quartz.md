@@ -1,0 +1,1 @@
+To obtain &bCertus&f you must first go to the &bMeteorite&f and get at least 5 &bCertus Quartz&f, and &6craft&f 1 budding &bBudding Certus&f, with the &bBudding block &byou can &6place &fit down and wait for it too grow. When the &bCrystals &fgrows the &bBudding Block &fhas a chance to &6degrade&f to the point where its just a &bCertus Block&f and wont grow anymore.

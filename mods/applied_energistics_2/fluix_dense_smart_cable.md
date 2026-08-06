@@ -1,0 +1,1 @@
+Doesn't support &6buses&r so you must first step down from &bDense&r to a &bsmaller cable&r (such as &bFluix ME Glass Cable&r or &bFluix ME Smart Cable&r) before using &6buses&r or &bpanels&r. Shows load similarly to &bFluix ME Smart Cable&r, with each line lit representing four &6channels&r in use.
