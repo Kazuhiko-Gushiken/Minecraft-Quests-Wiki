@@ -28,9 +28,15 @@
         "spriteSheet": true,
         "background": "!background.png",
         "camera": {
-            "x": 0,
+            "x": 2,
             "y": 0,
-            "zoom": 1
+            "zoom": 1.75
         }
+    },
+    {
+        "id": "modern_dynamics",
+        "title": "Modern Dynamics (WIP)",
+        "spriteSheet": false,
+        "background": false
     }
 ]
