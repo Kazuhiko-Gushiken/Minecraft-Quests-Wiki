@@ -617,7 +617,7 @@ function drawConnection(from, to, options = {}) {
     ctx.lineWidth = Math.max(1, width * camera.zoom);
 
     if (dashed) {
-        ctx.setLineDash([5, 3]);
+        ctx.setLineDash([5 * camera.zoom, 3 * camera.zoom]); // fix weird spacing when zooming
     } else {
         ctx.setLineDash([]);
     }
