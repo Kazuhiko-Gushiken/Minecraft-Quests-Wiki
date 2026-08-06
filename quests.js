@@ -327,9 +327,7 @@ function drawBackground() {
 
     const overscan = 8; //draw image oversized a bit to prevent white blurred edges
 
-    // dddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddd
-
-    ctx.fillStyle = "black";
+    ctx.fillStyle = "black"; //black background when transparent pngs are used as backpacks.
     ctx.fillRect(0, 0, canvas.width, canvas.height);
 
     ctx.drawImage(
